@@ -63,12 +63,12 @@ def init_session_state():
 
 def configure_page():
     st.set_page_config(
-        page_title="Document RAG Chat",
+        page_title="AskYourDoc",
         page_icon="📄",
         layout="centered",
     )
 
-    st.title("📄 Document RAG Assistant")
+    st.title("📄AskYourDoc")
     st.markdown("### Chat with your documents using AI")
 
 
